@@ -1,0 +1,14 @@
+{
+  "name": "0214",
+  "version": "1.0.0",
+  "description": ".git이라는 폴더는 무엇인가요?      커밋이 담겨져 있는 폴더 .git 폴더를 만드는 방법.     git init",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
