@@ -36,6 +36,11 @@ package-lock.json
 
 2.reset,revert
 커밋을 뒤로 돌아가는 행위
+reset 지우는 싶을 때 사용.
+git reset --hard [돌아갈 커밋 hash]
+revert 4개중 3번째것만 삭제 하고 싶을 때. 
+git revert [삭제할 커밋 hash값]
+
 
 3.branch
 커밋을 나누는 행위
@@ -56,3 +61,14 @@ package-lock.json
 깃 삭제
 git rm -r [파일명] 로컬과 원격저장소를 다 지우는 행위
 git rm --cached -r [파일명] 원격 저장소에서만 지움.
+
+origin 원격저장소의 이름.
+
+git clone [git hub 주소]
+복사 붙여 넣기.
+
+피링섹 원격 저장소에 잘 있을때
+빨강색 원격저장소에 없음.
+
+git clone: 최초에 가져오는 거
+git pull: 최초 다음부터 가지고 오는 것.
